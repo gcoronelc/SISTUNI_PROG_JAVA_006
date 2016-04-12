@@ -1,5 +1,4 @@
-![PROGRAMADOR JAVA](https://raw.githubusercontent.com/gcoronelc/SISTUNI_PROG_JAVA_006/master/programador.jpg)
-![PROGRAMADOR JAVA](https://raw.githubusercontent.com/gcoronelc/SISTUNI_PROG_JAVA_006/master/promocion.jpg)
+![PROGRAMADOR JAVA](https://raw.githubusercontent.com/gcoronelc/SISTUNI_PROG_JAVA_006/master/prog006.jpg)
 
 # PROGRAMADOR JAVA
 
