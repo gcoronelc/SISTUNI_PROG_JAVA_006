@@ -19,7 +19,9 @@
 
 # RECURSOS RECOMENDADOS
 
-- Curso de Git: https://www.udemy.com/learning-git/
+- Curso de Git: https://www.udemy.com/git-bash/
+- Curso Git: http://www.desarrolloweb.com/articulos/entiende-instala-configura-git.html
+- Curso Git: https://www.youtube.com/watch?v=NmbqlkLTOSI
 - Portal de cursos virtuales: HTTP://www.librosdigitales.net
 - Recursos de Java: http://gcoronelc.blogspot.pe/p/java.html
 - Repositorio de curso Java: https://github.com/gcoronelc/PECI-Java-MAR-2015
@@ -30,7 +32,9 @@
 - Repositorio de curso Java: https://github.com/gcoronelc/CEPSUNI_JAVA_OO_002
 - Repositorio de curso Java: https://github.com/gcoronelc/CEPSUNI_JAVA_OO_001
 - Curso virtual de Java: https://www.edx.org/course/programacion-orientada-objetos-mexicox-upevipn02x
-
+- Java Frameworks: https://www.facebook.com/groups/482164411971201/
+- Universidad Java: https://www.facebook.com/groups/1707557372825298/
+- Proyectos y Procesos: https://www.facebook.com/groups/ProyectosProcesos/
 
 # CLASE 01
 
