@@ -32,8 +32,8 @@
 - Repositorio de curso Java: https://github.com/gcoronelc/CEPSUNI_JAVA_OO_002
 - Repositorio de curso Java: https://github.com/gcoronelc/CEPSUNI_JAVA_OO_001
 - Curso virtual de Java: https://www.edx.org/course/programacion-orientada-objetos-mexicox-upevipn02x
-- Java Frameworks: https://www.facebook.com/groups/482164411971201/
-- Universidad Java: https://www.facebook.com/groups/1707557372825298/
+- Java Frameworks: https://www.facebook.com/groups/javaframeworks/
+- Universidad Java: https://www.facebook.com/groups/universidadjava/
 - Proyectos y Procesos: https://www.facebook.com/groups/ProyectosProcesos/
 
 # CLASE 01
