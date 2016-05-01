@@ -1,0 +1,3 @@
+14#Tatiana#12.0#Desaprobado
+15#Pepito#20.0#Aprobado
+13#Luis#13.0#Desaprobado
