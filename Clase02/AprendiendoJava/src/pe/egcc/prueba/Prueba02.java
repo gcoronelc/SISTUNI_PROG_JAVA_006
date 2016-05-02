@@ -13,8 +13,8 @@ public class Prueba02 {
     //Estudiante bean = new Estudiante("Angel", "Coronel", 3, false, "no tiene");
     Estudiante bean = new Estudiante();
     
-    
     System.out.println("Nombre: " + bean.getNombre());
+    
   }
   
 }
