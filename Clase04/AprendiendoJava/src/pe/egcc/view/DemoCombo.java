@@ -1,9 +1,9 @@
-
 package pe.egcc.view;
 
 import com.sun.javafx.scene.control.skin.VirtualFlow;
 import java.util.ArrayList;
 import java.util.List;
+import javax.swing.JOptionPane;
 import pe.egcc.dto.ComboDto;
 import pe.egcc.util.EGCCUtil;
 
@@ -30,6 +30,7 @@ public class DemoCombo extends javax.swing.JFrame {
 
     jLabel1 = new javax.swing.JLabel();
     cboCiudad = new javax.swing.JComboBox<>();
+    btnVer = new javax.swing.JButton();
 
     setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -37,15 +38,25 @@ public class DemoCombo extends javax.swing.JFrame {
 
     cboCiudad.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
+    btnVer.setText("Ver");
+    btnVer.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btnVerActionPerformed(evt);
+      }
+    });
+
     javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
     getContentPane().setLayout(layout);
     layout.setHorizontalGroup(
       layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
       .addGroup(layout.createSequentialGroup()
         .addGap(45, 45, 45)
-        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
-        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-        .addComponent(cboCiudad, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+          .addComponent(btnVer, javax.swing.GroupLayout.PREFERRED_SIZE, 203, javax.swing.GroupLayout.PREFERRED_SIZE)
+          .addGroup(layout.createSequentialGroup()
+            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+            .addComponent(cboCiudad, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)))
         .addContainerGap(97, Short.MAX_VALUE))
     );
     layout.setVerticalGroup(
@@ -55,11 +66,21 @@ public class DemoCombo extends javax.swing.JFrame {
         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
           .addComponent(jLabel1)
           .addComponent(cboCiudad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-        .addContainerGap(215, Short.MAX_VALUE))
+        .addGap(53, 53, 53)
+        .addComponent(btnVer, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addContainerGap(90, Short.MAX_VALUE))
     );
 
     pack();
   }// </editor-fold>//GEN-END:initComponents
+
+  private void btnVerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVerActionPerformed
+    int index = cboCiudad.getSelectedIndex();
+    if (index > -1) {
+      ComboDto dto = (ComboDto) cboCiudad.getSelectedItem();
+      JOptionPane.showMessageDialog(rootPane, dto.getNombre());
+    }
+  }//GEN-LAST:event_btnVerActionPerformed
 
   /**
    * @param args the command line arguments
@@ -97,6 +118,7 @@ public class DemoCombo extends javax.swing.JFrame {
   }
 
   // Variables declaration - do not modify//GEN-BEGIN:variables
+  private javax.swing.JButton btnVer;
   private javax.swing.JComboBox<String> cboCiudad;
   private javax.swing.JLabel jLabel1;
   // End of variables declaration//GEN-END:variables
